@@ -16,15 +16,108 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NgJ-2a-1SN">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calcBG" translatesAutoresizingMaskIntoConstraints="NO" id="BUG-vx-fmO">
+                                <rect key="frame" x="197" y="191" width="225" height="364"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearBar" translatesAutoresizingMaskIntoConstraints="NO" id="gMC-wh-88Y">
+                                <rect key="frame" x="197" y="110" width="225" height="73"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kk-ek-Pqe" userLabel="button0">
+                                <rect key="frame" x="207" y="409" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wib-Ph-sBh" userLabel="button1">
+                                <rect key="frame" x="207" y="338" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTL-q7-oMP" userLabel="button2">
+                                <rect key="frame" x="274" y="338" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ3-Eq-bRM" userLabel="button3">
+                                <rect key="frame" x="346" y="338" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1b-MR-uYw" userLabel="button4">
+                                <rect key="frame" x="207" y="270" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erN-kG-mK5" userLabel="button5">
+                                <rect key="frame" x="274" y="270" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwD-SU-hql" userLabel="button6">
+                                <rect key="frame" x="346" y="270" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn6"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-Ep-USL" userLabel="button7">
+                                <rect key="frame" x="207" y="201" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7x-Eh-2NQ" userLabel="button8">
+                                <rect key="frame" x="274" y="201" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn8"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRa-kg-nFd" userLabel="button9">
+                                <rect key="frame" x="346" y="201" width="70" height="70"/>
+                                <state key="normal" image="greenPhoneBtn9"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVq-6B-Fj0" userLabel="buttonPlus">
+                                <rect key="frame" x="274" y="409" width="70" height="70"/>
+                                <state key="normal" image="bluePhoneBtnPlus"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40X-qy-WWZ" userLabel="buttonMinus">
+                                <rect key="frame" x="346" y="409" width="70" height="70"/>
+                                <state key="normal" image="bluePhoneBtnMinus"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvZ-Ro-FTC" userLabel="buttonTimes">
+                                <rect key="frame" x="207" y="477" width="70" height="70"/>
+                                <state key="normal" image="bluePhoneBtnTimes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-Nc-6Xq" userLabel="buttonDivide">
+                                <rect key="frame" x="274" y="477" width="70" height="70"/>
+                                <state key="normal" image="bluePhoneBtnDivide"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVF-3f-sbL" userLabel="buttonEqual">
+                                <rect key="frame" x="346" y="477" width="70" height="70"/>
+                                <state key="normal" image="bluePhoneBtnEqual"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceBG" translatesAutoresizingMaskIntoConstraints="NO" id="NgJ-2a-1SN">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NgJ-2a-1SN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7fE-96-eXj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NgJ-2a-1SN" secondAttribute="bottom" id="Kht-2H-GET"/>
+                            <constraint firstAttribute="trailing" secondItem="NgJ-2a-1SN" secondAttribute="trailing" id="wJN-kX-fqK"/>
+                            <constraint firstItem="NgJ-2a-1SN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zpM-rY-4Hz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bluePhoneBtnDivide" width="100" height="100"/>
+        <image name="bluePhoneBtnEqual" width="100" height="100"/>
+        <image name="bluePhoneBtnMinus" width="100" height="100"/>
+        <image name="bluePhoneBtnPlus" width="100" height="100"/>
+        <image name="bluePhoneBtnTimes" width="100" height="100"/>
+        <image name="calcBG" width="380" height="635"/>
+        <image name="clearBar" width="480" height="200"/>
+        <image name="greenPhoneBtn0" width="100" height="100"/>
+        <image name="greenPhoneBtn1" width="100" height="100"/>
+        <image name="greenPhoneBtn2" width="100" height="100"/>
+        <image name="greenPhoneBtn3" width="100" height="100"/>
+        <image name="greenPhoneBtn4" width="100" height="100"/>
+        <image name="greenPhoneBtn5" width="100" height="100"/>
+        <image name="greenPhoneBtn6" width="100" height="100"/>
+        <image name="greenPhoneBtn7" width="100" height="100"/>
+        <image name="greenPhoneBtn8" width="100" height="100"/>
+        <image name="greenPhoneBtn9" width="100" height="100"/>
+        <image name="spaceBG" width="650" height="450"/>
+    </resources>
 </document>
