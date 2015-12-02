@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76655A9A1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
+		76655A9B1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
+		76655A9C1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
 		76F00D111C0EA685006A0442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F00D101C0EA685006A0442 /* AppDelegate.swift */; };
 		76F00D131C0EA685006A0442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F00D121C0EA685006A0442 /* ViewController.swift */; };
 		76F00D161C0EA685006A0442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F00D141C0EA685006A0442 /* Main.storyboard */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mr Sunshine 2.ttf"; sourceTree = "<group>"; };
 		76F00D0D1C0EA685006A0442 /* calcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F00D101C0EA685006A0442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F00D121C0EA685006A0442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		76F00D0F1C0EA685006A0442 /* calcApp */ = {
 			isa = PBXGroup;
 			children = (
+				76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */,
 				76F00D101C0EA685006A0442 /* AppDelegate.swift */,
 				76F00D121C0EA685006A0442 /* ViewController.swift */,
 				76F00D141C0EA685006A0442 /* Main.storyboard */,
@@ -231,6 +236,7 @@
 				76F00D1B1C0EA685006A0442 /* LaunchScreen.storyboard in Resources */,
 				76F00D181C0EA685006A0442 /* Assets.xcassets in Resources */,
 				76F00D161C0EA685006A0442 /* Main.storyboard in Resources */,
+				76655A9A1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76655A9B1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76655A9C1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				76F00D371C0EA686006A0442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F00D381C0EA686006A0442 /* Build configuration list for PBXNativeTarget "calcAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				76F00D3A1C0EA686006A0442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F00D3B1C0EA686006A0442 /* Build configuration list for PBXNativeTarget "calcAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				76F00D3D1C0EA686006A0442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
