@@ -181,6 +181,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="2pm-jJ-eiV"/>
                                                 </constraints>
                                                 <state key="normal" image="bluePhoneBtnPlus"/>
+                                                <connections>
+                                                    <action selector="onAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="csU-MF-V3p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40X-qy-WWZ" userLabel="buttonMinus">
                                                 <rect key="frame" x="150" y="0.0" width="70" height="70"/>
@@ -189,6 +192,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="5YZ-5s-cDe"/>
                                                 </constraints>
                                                 <state key="normal" image="bluePhoneBtnMinus"/>
+                                                <connections>
+                                                    <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dZ-gs-q7u"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -202,6 +208,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="THa-2H-a7V"/>
                                                 </constraints>
                                                 <state key="normal" image="bluePhoneBtnTimes"/>
+                                                <connections>
+                                                    <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2L-mH-jrJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-Nc-6Xq" userLabel="buttonDivide">
                                                 <rect key="frame" x="75" y="0.0" width="70" height="70"/>
@@ -210,6 +219,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="Vlp-2i-d5d"/>
                                                 </constraints>
                                                 <state key="normal" image="bluePhoneBtnDivide"/>
+                                                <connections>
+                                                    <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Liz-8Y-WdP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVF-3f-sbL" userLabel="buttonEqual">
                                                 <rect key="frame" x="150" y="0.0" width="70" height="70"/>
@@ -218,6 +230,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="fCs-E3-Nde"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtnEquals"/>
+                                                <connections>
+                                                    <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BNJ-p5-hBH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

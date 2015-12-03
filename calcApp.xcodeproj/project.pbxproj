@@ -10,9 +10,7 @@
 		76655A9A1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
 		76655A9B1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
 		76655A9C1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */; settings = {ASSET_TAGS = (); }; };
-		767D58EC1C0F66240096EB37 /* glassSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 767D58EB1C0F66240096EB37 /* glassSound.wav */; settings = {ASSET_TAGS = (); }; };
-		767D58ED1C0F66240096EB37 /* glassSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 767D58EB1C0F66240096EB37 /* glassSound.wav */; settings = {ASSET_TAGS = (); }; };
-		767D58EE1C0F66240096EB37 /* glassSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 767D58EB1C0F66240096EB37 /* glassSound.wav */; settings = {ASSET_TAGS = (); }; };
+		768EE7991C1009CD000D94C9 /* newGlassSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 768EE7981C1009CD000D94C9 /* newGlassSound.wav */; settings = {ASSET_TAGS = (); }; };
 		76F00D111C0EA685006A0442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F00D101C0EA685006A0442 /* AppDelegate.swift */; };
 		76F00D131C0EA685006A0442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F00D121C0EA685006A0442 /* ViewController.swift */; };
 		76F00D161C0EA685006A0442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F00D141C0EA685006A0442 /* Main.storyboard */; };
@@ -41,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mr Sunshine 2.ttf"; sourceTree = "<group>"; };
-		767D58EB1C0F66240096EB37 /* glassSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glassSound.wav; sourceTree = "<group>"; };
+		768EE7981C1009CD000D94C9 /* newGlassSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = newGlassSound.wav; sourceTree = "<group>"; };
 		76F00D0D1C0EA685006A0442 /* calcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F00D101C0EA685006A0442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F00D121C0EA685006A0442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				76655A991C0ED18F0015804E /* Mr Sunshine 2.ttf */,
-				767D58EB1C0F66240096EB37 /* glassSound.wav */,
+				768EE7981C1009CD000D94C9 /* newGlassSound.wav */,
 				76F00D101C0EA685006A0442 /* AppDelegate.swift */,
 				76F00D121C0EA685006A0442 /* ViewController.swift */,
 				76F00D141C0EA685006A0442 /* Main.storyboard */,
@@ -238,10 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767D58EC1C0F66240096EB37 /* glassSound.wav in Resources */,
 				76F00D1B1C0EA685006A0442 /* LaunchScreen.storyboard in Resources */,
 				76F00D181C0EA685006A0442 /* Assets.xcassets in Resources */,
 				76F00D161C0EA685006A0442 /* Main.storyboard in Resources */,
+				768EE7991C1009CD000D94C9 /* newGlassSound.wav in Resources */,
 				76655A9A1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76655A9B1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
-				767D58ED1C0F66240096EB37 /* glassSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76655A9C1C0ED18F0015804E /* Mr Sunshine 2.ttf in Resources */,
-				767D58EE1C0F66240096EB37 /* glassSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
