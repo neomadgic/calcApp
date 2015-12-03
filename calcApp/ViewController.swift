@@ -83,6 +83,13 @@ class ViewController: UIViewController
         resetNumStr();
     }
     
+    @IBAction func onClearPressed(sender: AnyObject)
+    {
+        playSound();
+        resetNumStr();
+        outputLbl.text = "0";
+    }
+    
     func processOperation(op: Operation)
     {
         playSound()
@@ -138,6 +145,7 @@ class ViewController: UIViewController
     {
         leftNumStr = "";
         rightNumStr = "";
+        runningNumber = "";
         currentOperation = Operation.Empty;
     }
     

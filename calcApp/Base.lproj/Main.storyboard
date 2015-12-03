@@ -244,14 +244,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iju-FU-uik" userLabel="clearBtn">
+                                <rect key="frame" x="180" y="524" width="240" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HGe-rr-89j"/>
+                                    <constraint firstAttribute="height" constant="73" id="lii-He-b4g"/>
+                                </constraints>
+                                <state key="normal" image="greenClearBtn"/>
+                                <connections>
+                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8s-0I-vP4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8Ly-yn-9ur" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Yq-yQ-Xwl"/>
                             <constraint firstItem="NgJ-2a-1SN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7fE-96-eXj"/>
+                            <constraint firstItem="Iju-FU-uik" firstAttribute="top" secondItem="8Ly-yn-9ur" secondAttribute="bottom" id="B3B-A6-Q8Q"/>
                             <constraint firstItem="bjb-tf-M9D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BSb-dS-E3h"/>
                             <constraint firstItem="bjb-tf-M9D" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="35" id="BdN-so-iLz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NgJ-2a-1SN" secondAttribute="bottom" id="Kht-2H-GET"/>
+                            <constraint firstItem="Iju-FU-uik" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ltx-4X-93l"/>
                             <constraint firstItem="z28-dA-ebf" firstAttribute="top" secondItem="8Ly-yn-9ur" secondAttribute="top" constant="25" id="Rsc-c6-n5D"/>
                             <constraint firstItem="8Ly-yn-9ur" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xua-gQ-u3R"/>
                             <constraint firstItem="z28-dA-ebf" firstAttribute="trailing" secondItem="8Ly-yn-9ur" secondAttribute="trailing" constant="-10" id="dMW-Hc-wQ2"/>
@@ -275,6 +288,7 @@
         <image name="bluePhoneBtnTimes" width="100" height="100"/>
         <image name="calcBG" width="380" height="635"/>
         <image name="clearBar" width="480" height="200"/>
+        <image name="greenClearBtn" width="390" height="170"/>
         <image name="greenPhoneBtn0" width="100" height="100"/>
         <image name="greenPhoneBtn1" width="100" height="100"/>
         <image name="greenPhoneBtn2" width="100" height="100"/>
