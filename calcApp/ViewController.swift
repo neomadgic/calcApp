@@ -80,7 +80,7 @@ class ViewController: UIViewController
     @IBAction func onEqualPressed(sender: AnyObject)
     {
         processOperation(currentOperation);
-        currentOperation = Operation.Empty;
+        resetNumStr();
     }
     
     func processOperation(op: Operation)
@@ -88,51 +88,39 @@ class ViewController: UIViewController
         playSound()
         if(currentOperation != Operation.Empty)
             {
-                
-            if currentOperation == Operation.Add
+            if runningNumber != "" && leftNumStr != ""
                 {
                 rightNumStr = runningNumber;
-                result = "\(Double(leftNumStr)! + Double(rightNumStr)!)"
+                    
+                if currentOperation == Operation.Add
+                    {
+                        result = "\(Double(leftNumStr)! + Double(rightNumStr)!)"
+                    }
+                else if currentOperation == Operation.Subtract
+                    {
+                        result = "\(Double(leftNumStr)! - Double(rightNumStr)!)"
+                    }
+                else if currentOperation == Operation.Multiply
+                    {
+                        result = "\(Double(leftNumStr)! * Double(rightNumStr)!)"
+                    }
+                else if currentOperation == Operation.Divide
+                    {
+                        result = "\(Double(leftNumStr)! / Double(rightNumStr)!)"
+                    }
                 runningNumber = "";
                 leftNumStr = result;
                 outputLbl.text = result;
+                currentOperation = op;
                 }
-                
-            if currentOperation == Operation.Subtract
-                {
-                rightNumStr = runningNumber;
-                result = "\(Double(leftNumStr)! - Double(rightNumStr)!)"
-                runningNumber = "";
-                leftNumStr = result;
-                outputLbl.text = result;
-                }
-                
-            if currentOperation == Operation.Multiply
-                {
-                rightNumStr = runningNumber;
-                result = "\(Double(leftNumStr)! * Double(rightNumStr)!)"
-                runningNumber = "";
-                leftNumStr = result;
-                outputLbl.text = result;
-                }
-                
-            if currentOperation == Operation.Divide
-                {
-                rightNumStr = runningNumber;
-                result = "\(Double(leftNumStr)! / Double(rightNumStr)!)"
-                runningNumber = "";
-                leftNumStr = result;
-                outputLbl.text = result;
-                }
-                
-            currentOperation = op;
             }
         else
             {
             leftNumStr = runningNumber;
             runningNumber = "";
-            currentOperation = op;
+            //currentOperation = op;
             }
+        currentOperation = op;
     }
     
     func playSound()
@@ -144,6 +132,13 @@ class ViewController: UIViewController
             }
         
         btnSound.play();
+    }
+    
+    func resetNumStr()
+    {
+        leftNumStr = "";
+        rightNumStr = "";
+        currentOperation = Operation.Empty;
     }
     
 }
