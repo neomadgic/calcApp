@@ -56,6 +56,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="oRZ-hy-Qb3"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn7"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IWx-OE-84q"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7x-Eh-2NQ" userLabel="button8">
                                                 <rect key="frame" x="75" y="0.0" width="70" height="70"/>
@@ -64,6 +67,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="Xnj-G8-mBa"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn8"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3w-tT-fWW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRa-kg-nFd" userLabel="button9">
                                                 <rect key="frame" x="150" y="0.0" width="70" height="70"/>
@@ -72,6 +78,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="z1Q-rE-LUj"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn9"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAZ-n1-cly"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -85,6 +94,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="eNO-4T-nmH"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn4"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ttg-Lp-pkg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erN-kG-mK5" userLabel="button5">
                                                 <rect key="frame" x="75" y="0.0" width="70" height="70"/>
@@ -93,6 +105,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="NZS-cL-c6T"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn5"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sFb-Ij-UNR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwD-SU-hql" userLabel="button6">
                                                 <rect key="frame" x="150" y="0.0" width="70" height="70"/>
@@ -101,6 +116,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="hRY-hj-uk1"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn6"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nzw-gE-bMZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -114,6 +132,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="cXM-DF-CKm"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn1"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Mc-kk-f6M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTL-q7-oMP" userLabel="button2">
                                                 <rect key="frame" x="75" y="0.0" width="70" height="70"/>
@@ -122,6 +143,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="eJl-hJ-ayA"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn2"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CP1-7h-aXQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ3-Eq-bRM" userLabel="button3">
                                                 <rect key="frame" x="150" y="0.0" width="70" height="70"/>
@@ -130,6 +154,9 @@
                                                     <constraint firstAttribute="height" constant="70" id="tYB-gc-QsW"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn3"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAx-2V-yGE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -143,6 +170,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="zvI-uM-7q2"/>
                                                 </constraints>
                                                 <state key="normal" image="greenPhoneBtn0"/>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50x-5j-AaV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVq-6B-Fj0" userLabel="buttonPlus">
                                                 <rect key="frame" x="75" y="0.0" width="70" height="70"/>
